@@ -1,6 +1,7 @@
 import React from "react";
-import FormValidator from "./Component/FormValidateComponent";
+import ProductComponent from "./ComponentModel/Features/index";
 
+// import FormValidator from "./Component/FormValidateComponent";
 // import "./App.css";
 // import ReducerHook from "./Component/ReducerHook";
 // import PreventDefaultjs from "./Component/preventDefaultjs";
@@ -12,7 +13,7 @@ import FormValidator from "./Component/FormValidateComponent";
 const App = () => {
   return (
     <div className="App">
-      <FormValidator />
+      <ProductComponent />
     </div>
   );
 };
